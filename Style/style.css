@@ -27,7 +27,7 @@ section {
 }
 /* Title text */
 .title-text {
-  color: #fff;
+  color: #121212;
   font-weight: 700;
   font-size: 45px;
   text-align: center;
@@ -64,4 +64,51 @@ section {
 .banner-text {
   color: #fff;
   margin-bottom: 30px;
+}
+
+.donate-today .primary-text {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.donate-amount-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+  margin-top: 90px;
+}
+
+.donate-amount-btn {
+  font-size: 30px;
+  border: 0;
+  font-weight: 700;
+  color: #707070;
+}
+
+.secondar-btn {
+  background: #ffeeee;
+  border: 1px solid #ff5959;
+  border-radius: 5px;
+  padding: 30px 10px;
+}
+
+.other-amount {
+  text-align: center;
+}
+
+.other-amount input {
+  width: 800px;
+  height: 40px;
+  border: none;
+  text-align: center;
+  border-bottom: 1px solid rgba(158, 153, 153, 0.493);
+  margin-bottom: 20px;
+  margin-top: 50px;
+  outline: none;
+  transition: boder-bottom 3s;
+}
+
+.other-amount:hover input {
+  border-bottom: 1px solid rgba(7, 5, 5, 0.842);
 }

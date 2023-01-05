@@ -1,0 +1,67 @@
+/* imported font */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:wght@400;700&family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+section {
+  margin-top: 130px;
+}
+
+/* Banner title */
+.main-title {
+  color: #fff;
+  font-size: 65px;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  line-height: 80px;
+  margin-bottom: 10px;
+}
+/* Title text */
+.title-text {
+  color: #fff;
+  font-weight: 700;
+  font-size: 45px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+/* Primary text */
+.primary-text {
+  color: #707070;
+  font-size: 18px;
+  line-height: 28px;
+}
+/* Primary button */
+.btn-primary {
+  background: #ff5959;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 16px;
+  border: none;
+  color: #fff;
+}
+
+/* Banner */
+.banner {
+  background-image: linear-gradient(#2e303027, rgba(6, 13, 20, 0.24), rgba(0, 3, 3, 0.993)), url("../images/donation7.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 175px;
+  text-align: center;
+  opacity: 0.7, 0;
+  position: center center;
+}
+
+.banner-text {
+  color: #fff;
+  margin-bottom: 30px;
+}
